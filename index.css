@@ -1,0 +1,116 @@
+section {
+  margin: 40px;
+  display: flex;
+}
+
+#left-side {
+  width: 50%;
+  height: 300px;
+  justify-content: center;
+  margin: 0px;
+
+}
+#left-side h1 {
+  font-size: 40px;
+  padding-bottom: -5px;
+  align-content: center;
+}
+#right-side {
+  align-items: center;
+  width: 70%;
+  height: 550px;
+
+} 
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: large;
+  height: fit-content;
+}
+
+.image-edit {
+  height: 550px;
+  width: 100%;
+}
+
+.email {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid gainsboro;
+  margin-top: -18px;
+  outline: none;
+}
+
+.password {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid gainsboro;
+  margin-top: -18px;
+  outline: none;
+}
+
+.forget-password {
+display: flex;
+justify-content: right;
+align-items: right;
+margin-bottom: 15px;
+font-weight: 100;
+font-size: small;
+  
+}
+.or {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+}
+
+.login {
+  height: 30px;
+  /* border-radius: 5px; */
+  color: white;
+  background-color: black;
+}
+
+.google-btn {
+  padding: 8px 19px 8px 5px;
+  width: 40%;
+  margin-left: 64px;
+  border: 1px solid gainsboro;
+}
+
+.facebook-btn {
+  padding: 8px 19px 8px 5px;
+  width: 40%;
+  border: 1px solid gainsboro;
+
+  
+}
+
+.dont-have {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+  margin-bottom: 3px;
+  font-weight: 100;
+}
+
+.crt-acc {
+  width: 100%;
+  height: 30px;
+  margin-top: -5px;
+  border: none;
+}
+
+.word-fresh {
+  position: absolute;
+  bottom: 50px;
+  right: 450px;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
+.img-div {
+  position: relative;
+}
