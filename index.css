@@ -6,7 +6,7 @@ section {
 #left-side {
   width: 50%;
   height: 300px;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0px;
 
 }
@@ -16,9 +16,10 @@ section {
   align-content: center;
 }
 #right-side {
-  align-items: center;
+  justify-content: space-between;
   width: 70%;
-  height: 550px;
+  height: fit-content;
+
 
 } 
 
@@ -73,11 +74,18 @@ font-size: small;
   background-color: black;
 }
 
+.face-go {
+  display: flex;
+  justify-content: space-between;
+}
+
 .google-btn {
   padding: 8px 19px 8px 5px;
   width: 40%;
-  margin-left: 64px;
+  /* margin-left: 64px; */
   border: 1px solid gainsboro;
+  align-items: left;
+  justify-content: space-between;
 }
 
 .facebook-btn {
@@ -106,7 +114,7 @@ font-size: small;
 .word-fresh {
   position: absolute;
   bottom: 50px;
-  right: 450px;
+  right: 490;
   color: white;
   font-weight: 900;
   font-size: 30px;
@@ -114,3 +122,37 @@ font-size: small;
 .img-div {
   position: relative;
 }
+ @media (max-width: 600px) {
+#right-side {
+  display: none;
+}
+body {
+  background: url(asset/fredrik-solli-wandem-DeqrCRTSbPQ-unsplash.jpg) ;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+#left-side {
+  width: 100%;
+ 
+}
+#left-side h1 {
+  color: white;
+  margin-left: 20px;
+}
+
+form {
+  background-color: brown;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 18px;
+  background-blend-mode: soft-light ;
+}
+
+.google-btn {
+  width: 100px;
+}
+.facebook-btn {
+  width: 100px;
+}
+ }
